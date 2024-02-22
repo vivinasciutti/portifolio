@@ -44,6 +44,7 @@ body{
     gap: 82px;
 }
 .apresentacao__conteudo{
+    display: flex;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -72,7 +73,6 @@ body{
     display: flex;
     width: 10%;
     height: 10%;
-    
 }
 .apresentacao__links__subtitulo{
     font-family: var(--font--primaria);
@@ -128,5 +128,15 @@ body{
         flex-direction: column;
         width: auto;
     }
-}
-    
+    .apresentacao__links__botao{
+        display: flex;
+        width: 40%;
+        font-size: 1rem;
+        font-weight: 50%;
+        gap: 3px;
+    }
+    .apresentacao__conteudo__texto{   
+        width: 80%;
+        height: 90%;
+    }
+    }
